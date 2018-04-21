@@ -1,9 +1,9 @@
 var result = "";
-const star = "*";
+const STAR = "*";
 const n = 5;
 
 for(var i=0;i<n;i++){
-    result = result + star;
+    result = result + STAR;
     console.log(result);
 }
 
