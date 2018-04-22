@@ -1,14 +1,14 @@
-var dollarRate = 26;
+const DOLLAR_RATE = 26;
 
 function convertInUAH(usd){
     var usd;
-    var uah = usd*dollarRate;
+    var uah = usd*DOLLAR_RATE;
     return uah;
 }
 
 function convertInUSD(uah){
     var uah;
-    var usd = uah/dollarRate;
+    var usd = uah/DOLLAR_RATE;
     return usd;
 }
 
