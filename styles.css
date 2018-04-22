@@ -34,3 +34,10 @@ p{
     font-size:28px;
     margin:20px;
 }
+
+#start{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+}
