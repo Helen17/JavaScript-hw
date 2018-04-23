@@ -1,7 +1,7 @@
-function recursion(N,O){
-    if (N>=O){
-       console.log(N);
-       recursion(N - 1,O);
+function recursion(n,o){
+    if (n>=o){
+       console.log(n);
+       recursion(n - 1,o);
     }
 }
 
